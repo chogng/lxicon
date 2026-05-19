@@ -1,0 +1,1 @@
+export const lxChevronUp = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" stroke-linecap="round" d="M12.5 10 8 5.5M8 5.5 3.5 10"/></svg>`;

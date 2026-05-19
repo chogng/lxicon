@@ -1,0 +1,1 @@
+export const lxScreenFull = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" stroke-linecap="round" d="M2 5.6V4a2 2 0 0 1 2-2h1.6M2 10.4V12a2 2 0 0 0 2 2h1.6M14 5.6V4a2 2 0 0 0-2-2h-1.6m3.6 8.4V12a2 2 0 0 1-2 2h-1.6"/></svg>`;

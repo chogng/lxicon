@@ -1,0 +1,21 @@
+{
+  "name": "cogicon",
+  "version": "1.0.0",
+  "description": "A tree-shakable colorful SVG icon library.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts", 
+  "type": "module", 
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build:gen": "node scripts/build.js",
+    "build:tsc": "tsc",
+    "build": "npm run build:gen && npm run build:tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "svgo": "^4.0.1",
+    "typescript": "^5.0.0"
+  }
+}
