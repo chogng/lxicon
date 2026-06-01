@@ -1,5 +1,5 @@
 {
-  "name": "lxicon",
+  "name": "@chogng/lxicon",
   "version": "1.0.0",
   "description": "A tree-shakable colorful SVG icon library.",
   "main": "dist/index.js",
@@ -8,6 +8,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build:gen": "node scripts/build.js",
     "build:tsc": "tsc",
