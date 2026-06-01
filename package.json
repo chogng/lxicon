@@ -1,5 +1,5 @@
 {
-  "name": "cogicon",
+  "name": "lxicon",
   "version": "1.0.0",
   "description": "A tree-shakable colorful SVG icon library.",
   "main": "dist/index.js",
@@ -16,6 +16,6 @@
   },
   "devDependencies": {
     "svgo": "^4.0.1",
-    "typescript": "^5.0.0"
+    "typescript": "^6.0.3"
   }
 }

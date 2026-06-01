@@ -33,6 +33,7 @@ export { lxExportTray } from './export-tray.js';
 export { lxFileText } from './file-text.js';
 export { lxFilter } from './filter.js';
 export { lxGear } from './gear.js';
+export { lxInfo } from './info.js';
 export { lxLayoutSidebarLeftOff } from './layout-sidebar-left-off.js';
 export { lxLayoutSidebarLeft } from './layout-sidebar-left.js';
 export { lxLayoutSidebarRightOff } from './layout-sidebar-right-off.js';
@@ -53,10 +54,14 @@ export { lxScreenNormal } from './screen-normal.js';
 export { lxSpiltPage } from './spilt-page.js';
 export { lxSplitHorizontal } from './split-horizontal.js';
 export { lxSplitVertical } from './split-vertical.js';
+export { lxSync } from './sync.js';
 export { lxThreeBars } from './three-bars.js';
 export { lxTranslate } from './translate.js';
+export { lxTrashFlat } from './trash-flat.js';
 export { lxTrash } from './trash.js';
+export { lxWarning } from './warning.js';
 export { lxWrite } from './write.js';
+export { lxXlsGreen } from './xls-green.js';
 
 export function renderIcon(iconFunction: () => string, container: HTMLElement): SVGElement {
   const div = document.createElement('div');

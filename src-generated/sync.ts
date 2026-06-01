@@ -1,0 +1,1 @@
+export const lxSync = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" stroke-linecap="round" d="M14 8A6 6 0 0 0 3.082 4.563M12.874 11.5A6 6 0 0 1 2 8"/><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M5.5 4.5H3V2M10.5 11.5H13v2.448"/></svg>`;
