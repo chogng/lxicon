@@ -6,8 +6,9 @@ A tree-shakable colorful SVG icon library.
 
 Before every release:
 
-1. Update the `version` in `package.json`.
-2. Run `npm publish`.
+1. Update the `version` in `package.json` and `package-lock.json`.
+2. Login the npm account by running `npm login`.
+3. Run `npm publish`.
 
 ## Current Publish Settings
 

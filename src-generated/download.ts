@@ -1,0 +1,1 @@
+export const lxDownload = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" stroke-linecap="round" d="M13.044 13.5H3"/><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="m12.5 7.5-4.478 4.326L3.5 7.5m4.522 4.326V2.5"/></svg>`;
