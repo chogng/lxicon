@@ -62,6 +62,7 @@ export { lxSettings } from './settings.js';
 export { lxSpiltPage } from './spilt-page.js';
 export { lxSplitHorizontal } from './split-horizontal.js';
 export { lxSplitVertical } from './split-vertical.js';
+export { lxSummary } from './summary.js';
 export { lxSync } from './sync.js';
 export { lxThreeBars } from './three-bars.js';
 export { lxTranslate } from './translate.js';
