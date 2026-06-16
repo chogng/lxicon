@@ -1,0 +1,1 @@
+export const lxTxtLetter = (): string => `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="#000" stroke-linecap="round" d="m6.25 5.5 3.5 5m0-5L8 8l-1.75 2.5M11.5 5.5h2m2 0h-2m0 0v5M.5 5.5h2m2 0h-2m0 0v5"/></svg>`;
