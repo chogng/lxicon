@@ -2,12 +2,14 @@
   "60000": {
     "name": "plus",
     "aliases": [
-      "add"
+      "add",
+      "zoom-in"
     ],
     "terms": [
       "action",
       "create",
       "new",
+      "zoom",
       "zoom-in"
     ]
   },
@@ -90,22 +92,37 @@
     "name": "csv"
   },
   "60022": {
-    "name": "csv-filled"
+    "name": "csv-filled",
+    "aliases": [
+      "csv"
+    ]
   },
   "60023": {
-    "name": "csv-green"
+    "name": "csv-green",
+    "aliases": [
+      "csv"
+    ]
   },
   "60024": {
-    "name": "csv-letter"
+    "name": "csv-letter",
+    "aliases": [
+      "csv"
+    ]
   },
   "60025": {
-    "name": "csv-letter-filled"
+    "name": "csv-letter-filled",
+    "aliases": [
+      "csv"
+    ]
   },
   "60026": {
     "name": "customize"
   },
   "60027": {
-    "name": "customize-filled"
+    "name": "customize-filled",
+    "aliases": [
+      "customize"
+    ]
   },
   "60028": {
     "name": "diagnostics"
@@ -114,19 +131,31 @@
     "name": "docx"
   },
   "60030": {
-    "name": "docx-blue"
+    "name": "docx-blue",
+    "aliases": [
+      "docx"
+    ]
   },
   "60031": {
-    "name": "docx-filled"
+    "name": "docx-filled",
+    "aliases": [
+      "docx"
+    ]
   },
   "60032": {
     "name": "download"
   },
   "60033": {
-    "name": "download-box"
+    "name": "download-box",
+    "aliases": [
+      "download"
+    ]
   },
   "60034": {
-    "name": "download-tray"
+    "name": "download-tray",
+    "aliases": [
+      "download"
+    ]
   },
   "60035": {
     "name": "edit"
@@ -141,7 +170,10 @@
     "name": "export"
   },
   "60039": {
-    "name": "export-tray"
+    "name": "export-tray",
+    "aliases": [
+      "export"
+    ]
   },
   "60040": {
     "name": "file-text"
@@ -150,7 +182,10 @@
     "name": "filter"
   },
   "60042": {
-    "name": "gear"
+    "name": "gear",
+        "aliases": [
+      "settings"
+    ]
   },
   "60043": {
     "name": "git-commit"
@@ -162,25 +197,37 @@
     "name": "layout-sidebar-left"
   },
   "60046": {
-    "name": "layout-sidebar-left-empty"
+    "name": "layout-sidebar-left-empty",
+    "aliases": [
+      "layout-sidebar-left"
+    ]
   },
   "60047": {
     "name": "layout-sidebar-left-off"
   },
   "60048": {
-    "name": "layout-sidebar-left-off-empty"
+    "name": "layout-sidebar-left-off-empty",
+    "aliases": [
+      "layout-sidebar-left-off"
+    ]
   },
   "60049": {
     "name": "layout-sidebar-right"
   },
   "60050": {
-    "name": "layout-sidebar-right-empty"
+    "name": "layout-sidebar-right-empty",
+    "aliases": [
+      "layout-sidebar-right"
+    ]
   },
   "60051": {
     "name": "layout-sidebar-right-off"
   },
   "60052": {
-    "name": "layout-sidebar-right-off-empty"
+    "name": "layout-sidebar-right-off-empty",
+    "aliases": [
+      "layout-sidebar-right-off"
+    ]
   },
   "60053": {
     "name": "legend"
@@ -201,10 +248,16 @@
     "name": "pdf"
   },
   "60059": {
-    "name": "pdf-filled"
+    "name": "pdf-filled",
+    "aliases": [
+      "pdf"
+    ]
   },
   "60060": {
-    "name": "pdf-red"
+    "name": "pdf-red",
+    "aliases": [
+      "pdf"
+    ]
   },
   "60061": {
     "name": "pinned"
@@ -216,7 +269,10 @@
     "name": "projects"
   },
   "60064": {
-    "name": "projects-filled"
+    "name": "projects-filled",
+    "aliases": [
+      "projects"
+    ]
   },
   "60065": {
     "name": "refresh"
@@ -224,11 +280,13 @@
   "60066": {
     "name": "minus",
     "aliases": [
-      "remove"
+      "remove",
+      "zoom-out"
     ],
     "terms": [
       "action",
       "subtract",
+      "zoom",
       "zoom-out"
     ]
   },
@@ -254,16 +312,25 @@
     "name": "search"
   },
   "60072": {
-    "name": "settings"
+    "name": "settings",
+    "aliases": [
+      "gear"
+    ]
   },
   "60073": {
     "name": "spilt-page"
   },
   "60074": {
-    "name": "split-horizontal"
+    "name": "split-horizontal",
+    "aliases": [
+      "split"
+    ]
   },
   "60075": {
-    "name": "split-vertical"
+    "name": "split-vertical",
+    "aliases": [
+      "split"
+    ]
   },
   "60076": {
     "name": "summary"
@@ -281,7 +348,10 @@
     "name": "trash"
   },
   "60081": {
-    "name": "trash-flat"
+    "name": "trash-flat",
+    "aliases": [
+      "trash"
+    ]
   },
   "60082": {
     "name": "txt-letter",
@@ -290,7 +360,10 @@
     ]
   },
   "60083": {
-    "name": "txt-letter-filled"
+    "name": "txt-letter-filled",
+    "aliases": [
+      "txt"
+    ]
   },
   "60084": {
     "name": "unpin"
@@ -303,6 +376,9 @@
   },
   "60087": {
     "name": "xls-green",
+    "aliases": [
+      "xls"
+    ],
     "terms": [
       "excel",
       "spreadsheet",
@@ -311,6 +387,9 @@
   },
   "60088": {
     "name": "xls-letter",
+      "aliases": [
+      "xls"
+    ],
     "terms": [
       "excel",
       "spreadsheet",
@@ -319,20 +398,17 @@
   },
   "60089": {
     "name": "xls-letter-filled",
+    "aliases": [
+      "xls"
+    ],
     "terms": [
       "excel",
       "spreadsheet",
       "xls"
     ]
   },
-  "60090": {
-    "name": "zoom-in"
-  },
   "60091": {
     "name": "zoom-in-circle"
-  },
-  "60092": {
-    "name": "zoom-out"
   },
   "60093": {
     "name": "zoom-out-circle"

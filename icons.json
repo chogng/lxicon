@@ -398,11 +398,13 @@
       "file": "./src/icons/minus.svg",
       "codepoint": "60066",
       "aliases": [
-        "remove"
+        "remove",
+        "zoom-out"
       ],
       "terms": [
         "action",
         "subtract",
+        "zoom",
         "zoom-out"
       ]
     },
@@ -464,12 +466,14 @@
       "file": "./src/icons/plus.svg",
       "codepoint": "60000",
       "aliases": [
-        "add"
+        "add",
+        "zoom-in"
       ],
       "terms": [
         "action",
         "create",
         "new",
+        "zoom",
         "zoom-in"
       ]
     },
@@ -677,25 +681,12 @@
       "terms": []
     },
     {
-      "name": "zoom-in",
-      "file": "./src/icons/zoom-in.svg",
-      "codepoint": "60090",
-      "aliases": [],
-      "terms": []
-    },
-    {
       "name": "zoom-out-circle",
       "file": "./src/icons/zoom-out-circle.svg",
       "codepoint": "60093",
       "aliases": [],
       "terms": []
     },
-    {
-      "name": "zoom-out",
-      "file": "./src/icons/zoom-out.svg",
-      "codepoint": "60092",
-      "aliases": [],
-      "terms": []
     }
   ]
 }
