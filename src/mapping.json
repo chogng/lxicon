@@ -1,7 +1,9 @@
 {
   "60000": [
     "add",
+    "zoom-in",
     "plus"
+    
   ],
   "60001": [
     "add-small",
@@ -220,7 +222,8 @@
     "refresh"
   ],
   "60066": [
-    "remove"
+    "remove",
+    "zoom-out"
   ],
   "60067": [
     "remove",
