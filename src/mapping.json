@@ -35,9 +35,11 @@
     "book"
   ],
   "60011": [
+    "browser",
     "browser-explore"
   ],
   "60012": [
+    "browser",
     "browser-web"
   ],
   "60013": [
@@ -137,6 +139,7 @@
     "filter"
   ],
   "60042": [
+    "settings",
     "gear"
   ],
   "60043": [
@@ -193,9 +196,11 @@
     "pdf"
   ],
   "60059": [
+    "pdf",
     "pdf-filled"
   ],
   "60060": [
+    "pdf",
     "pdf-red"
   ],
   "60061": [
@@ -208,6 +213,7 @@
     "projects"
   ],
   "60064": [
+    "projects",
     "projects-filled"
   ],
   "60065": [
@@ -217,6 +223,7 @@
     "remove"
   ],
   "60067": [
+    "remove",
     "remove-small"
   ],
   "60068": [
