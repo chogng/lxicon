@@ -332,7 +332,10 @@
     search.addEventListener('input', () => {
       const query = search.value.trim().toLowerCase();
       const filtered = query
-        ? allIcons.filter(icon => icon.name.toLowerCase().includes(query))
+        ? allIcons.filter(icon =>
+          icon.name.toLowerCase().includes(query) ||
+          (Array.isArray(icon.aliases) && icon.aliases.some(alias => alias.toLowerCase().includes(query)))
+        )
         : allIcons;
       render(filtered);
     });
