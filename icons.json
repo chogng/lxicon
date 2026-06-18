@@ -681,7 +681,10 @@
       "name": "lightning",
       "file": "./src/icons/lightning.svg",
       "codepoint": "60098",
-      "aliases": [],
+      "aliases": [
+        "fast",
+        "flash"
+      ],
       "keywords": []
     },
     {
@@ -689,8 +692,8 @@
       "file": "./src/icons/lightning-filled.svg",
       "codepoint": "60099",
       "aliases": [
-        "fast",
-        "flash"
+        "fast-filled",
+        "flash-filled"
       ],
       "keywords": []
     },
@@ -708,6 +711,13 @@
       "aliases": [
         "list-bulleted"
       ],
+      "keywords": []
+    },
+    {
+      "name": "menu",
+      "file": "./src/icons/menu.svg",
+      "codepoint": "60150",
+      "aliases": [],
       "keywords": []
     },
     {
@@ -965,16 +975,6 @@
       "file": "./src/icons/sync.svg",
       "codepoint": "60077",
       "aliases": [],
-      "keywords": []
-    },
-    {
-      "name": "three-bars",
-      "file": "./src/icons/three-bars.svg",
-      "codepoint": "60078",
-      "aliases": [
-        "menu",
-        "list"
-      ],
       "keywords": []
     },
     {

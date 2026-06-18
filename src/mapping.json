@@ -287,13 +287,6 @@
   "60077": {
     "name": "sync"
   },
-  "60078": {
-    "name": "three-bars",
-    "aliases": [
-      "menu",
-      "list"
-    ]
-  },
   "60079": {
     "name": "translate"
   },
@@ -365,7 +358,7 @@
   },
   "60098": {
     "name": "lightning",
-        "aliases": [
+    "aliases": [
       "fast",
       "flash"
     ]
@@ -603,5 +596,8 @@
   },
   "60149": {
     "name": "csv-letter-filled"
+  },
+  "60150": {
+    "name": "menu"
   }
 }
