@@ -52,11 +52,14 @@
   },
   "60011": {
     "name": "browser-explore",
-    "aliases": [ "browser" ]
+    "aliases": [
+      "browser"
+    ]
   },
   "60012": {
     "name": "browser-web",
-    "aliases": ["browser"
+    "aliases": [
+      "browser"
     ]
   },
   "60013": {

@@ -72,7 +72,6 @@ function serializeEntry(entry) {
 }
 
 const entries = [];
-const usedAliases = new Map();
 const mappedIcons = new Set();
 
 for (const [codepoint, rawEntry] of Object.entries(existingMapping)) {
@@ -86,14 +85,6 @@ for (const [codepoint, rawEntry] of Object.entries(existingMapping)) {
   const aliases = normalizedEntry.aliases.filter(alias => alias !== iconName);
   if (mappedIcons.has(iconName)) {
     throw new Error(`Duplicate mapping entry for icon "${iconName}".`);
-  }
-
-  for (const alias of [iconName, ...aliases]) {
-    const owner = usedAliases.get(alias);
-    if (owner && owner !== codepoint) {
-      throw new Error(`Alias "${alias}" is used by multiple codepoints.`);
-    }
-    usedAliases.set(alias, codepoint);
   }
 
   mappedIcons.add(iconName);
